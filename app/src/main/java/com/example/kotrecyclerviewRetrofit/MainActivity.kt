@@ -27,8 +27,8 @@ class MainActivity : AppCompatActivity() {
 
         val api = retrofit.create(ApiService::class.java)
 
-       // retrofitCode(api) // without coroutines
-          retrofitCode2(api) // with coroutines
+        retrofitCode(api) // without coroutines
+        //  retrofitCode2(api) // with coroutines
     }
 
     private fun retrofitCode2(api: ApiService) {
